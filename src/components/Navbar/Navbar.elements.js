@@ -108,3 +108,5 @@ export const NavLinks = styled(Link)`
     }
   }
 `;
+
+export const NavItemBtn = styled.button``;
