@@ -37,8 +37,8 @@ export const NavIcon = styled(FaMagento)`
   margin-right: 0.5rem;
 `;
 
-export const HamburgerIcon = styled.div`
-  display: none;
+export const MobileIcon = styled.div`
+  //display: none;
 
   @media screen and (max-width: 960px) {
     display: block;

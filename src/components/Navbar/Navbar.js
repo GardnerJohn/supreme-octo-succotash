@@ -6,7 +6,7 @@ import {
   NavbarContainer,
   NavLogo,
   NavIcon,
-  HamburgerIcon,
+  MobileIcon,
 } from "./Navbar.elements";
 
 const Navbar = () => {
@@ -16,16 +16,16 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "white" }}>
         <Nav>
           <NavbarContainer>
             <NavLogo to="/">
               <NavIcon />
               ULTRA
             </NavLogo>
-            <HamburgerIcon onClick={handleClick}>
+            <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
-            </HamburgerIcon>
+            </MobileIcon>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
