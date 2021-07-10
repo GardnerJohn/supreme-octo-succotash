@@ -11,4 +11,7 @@ export const homeObjOne = {
   headline: "Lead Generation Specialist for Online Businesses",
   lightText: true,
   topLine: "Margeting Agency",
+  img: require("../../images/programmer.png"),
+  alt: "Image",
+  start: "",
 };
