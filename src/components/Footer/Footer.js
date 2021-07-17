@@ -79,9 +79,9 @@ const Footer = () => {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to="/">
-            <SocialIcon>ULTRA</SocialIcon>
+            <SocialIcon>Market Wizards</SocialIcon>
           </SocialLogo>
-          <WebsiteRights>ULTRA 2020</WebsiteRights>
+          <WebsiteRights>Market Wizards 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
