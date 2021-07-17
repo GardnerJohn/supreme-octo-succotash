@@ -8,7 +8,7 @@ export const homeObjOne = {
     "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
   buttonLabel: "Get Started",
   imgStart: "",
-  img: require("../../images/creditcard.png"),
+  img: require("../../images/creditcard.png").default,
   alt: "Credit Card",
 };
 
@@ -36,7 +36,7 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: require("../../images/programmer.png"),
+  img: require("../../images/programmer.png").default,
   alt: "Vault",
 };
 
